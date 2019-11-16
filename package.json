@@ -1,0 +1,45 @@
+{
+  "name": "zos-wallet-js",
+  "version": "1.2.141",
+  "description": "zos",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel es6 -d lib",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "queryChainStore": "babel-node es6/queryChainStore"
+  },
+  "keywords": [
+    "zos"
+  ],
+  "author": "eric",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-cli": "^6.26.0",
+    "babel-eslint": "^8.2.6",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.19.1",
+    "eslint-config-standard": "^11.0.0",
+    "eslint-friendly-formatter": "^4.0.1",
+    "eslint-json": "^2.0.0",
+    "eslint-loader": "^2.0.0",
+    "eslint-plugin-html": "^4.0.3",
+    "eslint-plugin-import": "^2.11.0",
+    "eslint-plugin-node": "^8.0.1",
+    "eslint-plugin-promise": "^3.7.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "numeral": "2.0.4",
+    "tcomb": "2.5.2",
+    "webpack": "^3.12.0",
+    "webpack-bundle-analyzer": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.0",
+    "webpack-hot-middleware": "^2.18.0",
+    "webpack-merge": "^4.1.0",
+    "zosjs": "^1.1.146",
+    "zosjs-ws": "^1.1.122"
+  },
+  "dependencies": {
+    "isomorphic-fetch": "^2.2.1"
+  }
+}
